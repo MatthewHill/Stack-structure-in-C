@@ -1,0 +1,1659 @@
+this
+file is here
+alskdjhfljasdffffffffffffffffffffffffffffffffffNote: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and Note: Create a subdirectory called “2”. Change to the subdirectory. “my_copy.c” and Makefile should be
+placed under the subdirectory “2”.
+[3] (20 points) [Pointers and Arrays] C program for Stack
+In this problem, you will implement a basic data structures using array: stack. You can assume the
+elements are of type int. A stack is usually called last in first out (LIFO) list. It supports two important
+operations, push and pop. Here's the list of all operations that you need to implement.
+? void stack_init(stack *s, int capacity)
+Initializes the stack that stores integers with maximum size capacity. You should call
+malloc(sizeof(int)*capacity) inside stack_init())
+? int stack_size(stack *s)
+Returns the size of the stack, i.e., the number of elements currently stored/pushed in the
+array.It should NOT return the capacity of the stack.
+? int stack_pop(stack *s)
+Returns the integer element on top of the stack. If the stack is empty, the return value is
+undefined.
+? void stack_push(stack *s, int e)
+If the stack is not full, push the item on top of the stack. Otherwise, do nothing.
+? void stack_deallocate(stack *s)
+Frees this stack.
+The push and pop operations of stack only operates on one end of the array. Figure 1 shows an example.
+Create header “dslib.h", which contains declarations of stack, and implement them in “stack.c”. Test
+your program in “test.c", where the main function is. Also, create a “Makefile" to manage your project.
+For your information, you will need to use malloc(..) API in this program.
+Note: Create a subdirectory called “3”. Change to the subdirectory. “dslib.h”, “stack.c”, “test.c” and fffffffffffffffffffffffa;sldkjf
